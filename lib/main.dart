@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: ResposiveLayout(
-        mobileScaffold: const MobileScaffold(),
+        mobileScaffold:  MobileScaffold(),
         tabletScaffold: const TabletScaffold(),
         desktopScaffold: const DesktopScaffold(),
       )
